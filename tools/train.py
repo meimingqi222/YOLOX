@@ -2,6 +2,10 @@
 # -*- coding:utf-8 -*-
 # Copyright (c) Megvii, Inc. and its affiliates.
 
+import os
+os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'
+
+
 from loguru import logger
 
 import torch
