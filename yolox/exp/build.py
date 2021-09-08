@@ -29,6 +29,7 @@ def get_exp_by_name(exp_name):
         "yolox-tiny": "yolox_tiny.py",
         "yolox-nano": "nano.py",
         "yolov3": "yolov3.py",
+        "yolox_xp": "yolox_xp.py",
     }
     filename = filedict[exp_name]
     exp_path = os.path.join(yolox_path, "exps", "default", filename)
@@ -45,7 +46,7 @@ def get_exp(exp_file, exp_name):
         exp_name (str): name of experiment. "yolo-s",
     """
     assert (
-        exp_file is not None or exp_name is not None
+            exp_file is not None or exp_name is not None
     ), "plz provide exp file or exp name."
     if exp_file is not None:
         return get_exp_by_file(exp_file)

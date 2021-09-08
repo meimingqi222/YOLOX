@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding:utf-8 -*-
 # Copyright (c) Megvii, Inc. and its affiliates.
+import os
+os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'
 
 import argparse
 import random

@@ -84,3 +84,7 @@ COCO_CLASSES = (
     "hair drier",
     "toothbrush",
 )
+
+PIPELINE_DEFECT_CLASS = (
+    'AJ3', 'SL3', 'BX1', 'FS1', 'BX2', 'PL2', 'CK2', 'PL3', 'CR1', 'CJ1', 'FS3', 'ZW1', 'PL1', 'TL1', 'PL4', 'SL1', 'CK1', 'SL2', 'CR3', 'TJ3', 'CQ1', 'SL4', 'CJ2', 'TJ1', 'CK4', 'TJ2'
+)
